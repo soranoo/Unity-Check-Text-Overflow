@@ -6,12 +6,9 @@ Project start on 26-02-2022
 
 A Text(support Text Mesh Pro) class extension to check if the content overflows.
 
-(Doesn't support vertical overflow checking)
+(Doesn't Text Mesh Pro text support vertical overflow checking)
 
 ### Portal ↠ [Usage](#usage) ↞
-
-## How it works ?
-Hard to explain. :)
 
 ## Requirements
 * `TextMeshPro` (Unity Plugin)
@@ -33,9 +30,16 @@ public class Example : MonoBehaviour
     private void Start()
     {
         // Unity built-in text
+
+        // (Horizontal)
         print(UnityBuiltIn_Text.IsOverflowingHorizontal());
         // or
         print(TextExtension.IsOverflowingHorizontal(UnityBuiltIn_Text));
+
+        // (Vertical)
+        print(UnityBuiltIn_Text.IsOverflowingVertical());
+        // or
+        print(TextExtension.IsOverflowingVertical(UnityBuiltIn_Text));
     }
 }
 ```
@@ -62,7 +66,7 @@ public class Example : MonoBehaviour
 Or check out the [`Example.cs`](Example.cs)
 
 ## TODO
-* Support vertical overflow checking.
+* Support Text Mesh Pro text vertical overflow checking.
 
 ## Known Issues
 * No known issues
