@@ -6,7 +6,7 @@ Project start on 26-02-2022
 
 A Text(support Text Mesh Pro) class extension to check if the content overflows.
 
-(Doesn't Text Mesh Pro text support vertical overflow checking)
+(Text Mesh Pro text doesn't support vertical overflow checking)
 
 ### Portal ↠ [Usage](#usage) ↞
 
